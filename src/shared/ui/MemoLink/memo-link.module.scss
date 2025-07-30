@@ -1,0 +1,35 @@
+.navigation__item {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  &:hover {
+    color: #b8c043;
+  }
+
+  &_active {
+    color: #b8c043;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+.icon {
+  display: none;
+}
+
+
+@media (max-width: 640px) {
+  .navigation__item {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+
+  .text {
+    display: none;
+  }
+  .icon {
+    display: flex;
+    font-size: 20px;
+  }
+}

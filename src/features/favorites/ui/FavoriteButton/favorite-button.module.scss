@@ -1,0 +1,15 @@
+.favorite_button {
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  &_active {
+    background-color: tomato;
+    color: #fff;
+    font-weight: 600;
+  }
+  &_disabled {
+    background-color: rgb(47, 187, 47);
+    color: #fff;
+    font-weight: 600;
+  }
+}

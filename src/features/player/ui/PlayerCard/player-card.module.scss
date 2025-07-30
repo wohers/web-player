@@ -1,0 +1,37 @@
+.player_card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 16px;
+
+  &__delete_btn {
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: #dadada;
+    color: #000;
+    font-weight: 600;
+  }
+
+  &__img {
+    width: 300px;
+    height: 300px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+
+    &_title {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    &_artist {
+      color: #c0c0c0;
+    }
+  }
+}

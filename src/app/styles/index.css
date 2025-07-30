@@ -1,0 +1,31 @@
+@import url("./reset.css");
+
+@font-face {
+  font-family: "Roboto Flex";
+  src: url("../../assets/fonts/roboto-flex.ttf");
+}
+
+:root {
+  font-family: "Roboto Flex";
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+}
+
+body {
+  overscroll-behavior: none;
+  background: #1a1a1a;
+  background: radial-gradient(
+    127deg,
+    rgba(26, 26, 26, 1) 0%,
+    rgba(61, 61, 61, 1) 100%
+  );
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
