@@ -32,7 +32,7 @@ export const PlayerCard = memo(({ track }: IPlayerCardProps) => {
   );
 
   const showDeleteButton = useMemo(
-    () => user?.is_staff && pathname === "/home",
+    () => user?.is_staff && pathname === "/web-player",
     [user, pathname]
   );
 

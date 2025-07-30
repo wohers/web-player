@@ -35,7 +35,7 @@ export const LoginForm = () => {
       localStorage.setItem("token", data.data.token);
       setUser(data.data.user);
       toast.success("Вы успешно вошли");
-      navigate("/home");
+      navigate("/web-player");
     },
     onError: () => {
       toast.error("Ошибка при входе, попробуйте позже");

@@ -21,10 +21,10 @@ export const AppRouter = memo(() => {
           children: [
             {
               index: true,
-              element: <Navigate to={"/home"} />,
+              element: <Navigate to={"/web-player"} />,
             },
             {
-              path: "/home",
+              path: "/web-player",
               element: <Home />,
             },
             {

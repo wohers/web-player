@@ -30,7 +30,7 @@ export const Layout = memo(() => {
     onSuccess: () => {
       localStorage.removeItem("token");
       toast.success("Успешно");
-      navigate("/home");
+      navigate("/web-player");
       window.location.reload();
     },
     onError: () => {
