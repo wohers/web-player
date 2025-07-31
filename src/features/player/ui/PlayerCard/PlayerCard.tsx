@@ -41,7 +41,7 @@ export const PlayerCard = memo(({ track }: IPlayerCardProps) => {
   return (
     <div className={styles.player_card}>
       <img
-        src={`${import.meta.env.VITE_URL}/${track.cover_image}`}
+        src={`${import.meta.env.VITE_URL}${track.cover_image}`}
         alt={track.title}
         className={styles.player_card__img}
       />
