@@ -29,10 +29,10 @@ export const PlayerCard = memo(({ track }: IPlayerCardProps) => {
       showJumpControls: false,
     }),
     [track.audio_file]
-  );
+  );  
 
   const showDeleteButton = useMemo(
-    () => user?.is_staff && pathname === "/web-player",
+    () => user?.is_staff && pathname === "/home",
     [user, pathname]
   );
 

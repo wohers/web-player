@@ -16,15 +16,15 @@ export const AppRouter = memo(() => {
     () =>
       createBrowserRouter([
         {
-          path: "/",
+          path: "",
           element: <Layout />,
           children: [
             {
               index: true,
-              element: <Navigate to={"/web-player"} />,
+              element: <Navigate to={"/home"} />,
             },
             {
-              path: "/web-player",
+              path: "/home",
               element: <Home />,
             },
             {
@@ -45,9 +45,7 @@ export const AppRouter = memo(() => {
             },
           ],
         },
-      ], {
-        basename: '/web-player'
-      }),
+      ]),
     []
   );
 
